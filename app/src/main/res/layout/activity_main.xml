@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/primary"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="247dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="484dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="257dp"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/outline_email_black_36"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="256dp"
+        android:layout_height="54dp"
+        android:drawableLeft="@drawable/outline_password_black_36"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="99dp"
+        android:text="WELCOME!! TO           LUCKY´S MART"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="193dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/primary"
+        android:text="@string/signin"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="50dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="194dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/logo1"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <ImageButton
+        android:id="@+id/ibtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_add_black_48"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

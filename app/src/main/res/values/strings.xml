@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lucky´s Mart</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="user">USER</string>
+    <string name="seller">SELLER</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="registerUser">Register User</string>
+    <string name="next">Next</string>
+
+</resources>
